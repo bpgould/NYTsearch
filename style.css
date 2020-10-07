@@ -1,0 +1,11 @@
+
+.jumbotron {
+    background-color: #00008B;
+    padding: 50px; 
+    margin: 25px; 
+    color: white;
+}
+
+.display-4 {
+    font-weight: 800; 
+}
