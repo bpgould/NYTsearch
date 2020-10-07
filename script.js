@@ -9,3 +9,10 @@ $.ajax({
 }).then(function(response){
     console.log(response);
 });
+
+$(".btn").click(function(){
+    var searchTopic=$("#searchInput").val();
+    var numRecords=$("#numberRecords").val();
+    var beginYear=$("#startYear").val();
+    var lastYear=$("#endYear").val();
+});
