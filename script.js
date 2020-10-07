@@ -2,7 +2,7 @@ var urlToBeSent = 'https://api.nytimes.com/svc/search/v2/articlesearch.json?q=el
 
 var key = 'ceHHXGMHV55CbEwPFJp87wjLlG9xKnTn';
 // var query = 
-
+console.log('test');
 $.ajax({
     url: urlToBeSent,
     method: 'GET'
