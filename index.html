@@ -8,14 +8,34 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-<<<<<<< HEAD
-    <title>Search</title>
-=======
-    <title>Hello, world from Bennett!</title>
->>>>>>> c6ec5665c0b06fb6b473cdfdbf5918ad097ff29e
+    <title>New York Times Search</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <main>
+      <div class="container">
+        <!-- search parameter form -->
+        <h1>New York Times Search</h1>
+        <form>
+          <div class="form-group">
+            <label for="searchTerms">Search term:</label>
+            <input type="search" class="form-control" id="searchInput">
+          </div>
+          <div class="form-group">
+            <label for="numberRecords">Number of Records to Retrieve:</label>
+            <input type="password" class="form-control" id="numberRecords">
+          </div>
+          <div class="form-group">
+            <label for="startYear">Start Year (Optional):</label>
+            <input type="password" class="form-control" id="startYear">
+          </div>
+          <div class="form-group">
+            <label for="endYear">End Year (Optional):</label>
+            <input type="password" class="form-control" id="endYear">
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </main>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
