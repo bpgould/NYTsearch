@@ -1,6 +1,6 @@
 
 .jumbotron {
-    background-color: #00008B;
+    background-color: #21325a;
     padding: 50px; 
     margin: 25px; 
     color: white;
@@ -18,4 +18,8 @@
 .formHead {
     background-color: white;
     padding: 5px; 
+}
+.display-5 {
+    font-weight: 700; 
+    text-align: center;
 }
