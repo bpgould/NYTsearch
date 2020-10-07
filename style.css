@@ -9,3 +9,13 @@
 .display-4 {
     font-weight: 800; 
 }
+
+.formDiv {
+    background-color: #F0F8FF;
+    padding: 25px;
+}
+
+.formHead {
+    background-color: white;
+    padding: 5px; 
+}
